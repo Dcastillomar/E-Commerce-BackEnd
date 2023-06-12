@@ -10,6 +10,23 @@ class Product extends Model {}
 Product.init(
   {
     // define columns
+    id:{
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    product_name,
+    price,
+    stock,
+    category_id: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      references: {
+        model: "category",
+        key: "id"
+      }
+    }
   },
   {
     sequelize,
