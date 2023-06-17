@@ -20,6 +20,9 @@
   ## Usage
   In the terminal, the user will navigate to the folder containing the schema.sql file and then run the file. Next the user will navigate to the folder with the seeds files and run seeds with node seeds/index.js. Then the user will start the application with npm start to initialize the port. Using insomnia the user can then then use the get, post, put and delete options in insomnia providing the correct information by utilizing the models folder. 
 
+  Walkthrough video:
+  https://drive.google.com/file/d/1VOy84qHby5ZbgyuIGGF-jHaAaxu9C989/view
+
   ## Contribution
   Please contact me with any questions.
 
